@@ -1,28 +1,23 @@
 body {
     position: fixed;
-    left:0;
+    left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     margin: 0;
-    overflow: hidden;
-    background: white;
+    overflow: auto;
+    font-family: 'Playfair Display', sans-serif;
 }
 
-.sphere {
-    fill: #2079cd;
+.link {
+    fill: none;
+    stroke: #8ac7d7;
 }
 
-.country {
-    fill: #63d263;
-    stroke: darkgreen;
-    stroke-opacity: 0.9;
+.text {
+    text-shadow: -1px -1px 3px white,
+    -1px 1px 3px white,
+    1px -1px 3px white,
+    1px 1px 3px white;
+    cursor: default;
 }
-
-.country:hover {
-    fill: hotpink;
-    stroke: deeppink;
-    cursor: pointer;
-    stroke-opacity: 1;
-}
-
