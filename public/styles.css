@@ -1,0 +1,28 @@
+body {
+    position: fixed;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    overflow: hidden;
+    background: white;
+}
+
+.sphere {
+    fill: #2079cd;
+}
+
+.country {
+    fill: #63d263;
+    stroke: darkgreen;
+    stroke-opacity: 0.9;
+}
+
+.country:hover {
+    fill: hotpink;
+    stroke: deeppink;
+    cursor: pointer;
+    stroke-opacity: 1;
+}
+
